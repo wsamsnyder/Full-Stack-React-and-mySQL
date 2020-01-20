@@ -1,0 +1,34 @@
+{
+  "name": "Full-Stack-React-and-mySQL",
+  "version": "1.0.0",
+  "description": "Full Stack Practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-build": "webpack --watch",
+    "dev-start": "nodemon -i public -i node_modules i src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversifiedmechanic/Full-Stack-React-and-mySQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diversifiedmechanic/Full-Stack-React-and-mySQL/issues"
+  },
+  "homepage": "https://github.com/diversifiedmechanic/Full-Stack-React-and-mySQL#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.5"
+  }
+}
