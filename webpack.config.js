@@ -3,6 +3,7 @@ const path = require('path');
 
 module.exports = {
   entry: './src/index.jsx',
+  mode: 'development',
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'public'),
@@ -13,9 +14,9 @@ module.exports = {
         test: /\.m?jsx$/,
         exclude: /(node_modules)/,
         use: {
-          loader: 'bable-loader',
+          loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-env'],
+            presets: ['@babel/preset-env', '@babel/preset-react'],
           }
         }
       }
